@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67B7B0CB768F736E2A17FDD1 /* Pods_CassandraTest2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A85C5230EEA6F85E715E228 /* Pods_CassandraTest2.framework */; };
+		B0B0F0991EF961E40099ECC1 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B0F0981EF961E40099ECC1 /* ShowViewController.swift */; };
+		B0B0F09B1EF962AA0099ECC1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B0F09A1EF962AA0099ECC1 /* Constants.swift */; };
+		B0B0F0A01EF9679F0099ECC1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B0F09F1EF9679F0099ECC1 /* User.swift */; };
+		B0DC59CE1EF5599D001DC817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC59CD1EF5599D001DC817 /* AppDelegate.swift */; };
+		B0DC59D01EF5599D001DC817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC59CF1EF5599D001DC817 /* ViewController.swift */; };
+		B0DC59D31EF5599D001DC817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0DC59D11EF5599D001DC817 /* Main.storyboard */; };
+		B0DC59D51EF5599D001DC817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DC59D41EF5599D001DC817 /* Assets.xcassets */; };
+		B0DC59D81EF5599D001DC817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0DC59D61EF5599D001DC817 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1434A51858472A278DFE3C15 /* Pods-CassandraTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CassandraTest2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CassandraTest2/Pods-CassandraTest2.debug.xcconfig"; sourceTree = "<group>"; };
+		58AB11CDCAA8E81F53D62735 /* Pods-CassandraTest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CassandraTest2.release.xcconfig"; path = "Pods/Target Support Files/Pods-CassandraTest2/Pods-CassandraTest2.release.xcconfig"; sourceTree = "<group>"; };
+		7A85C5230EEA6F85E715E228 /* Pods_CassandraTest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CassandraTest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B0F0981EF961E40099ECC1 /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		B0B0F09A1EF962AA0099ECC1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B0B0F09F1EF9679F0099ECC1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B0DC59CA1EF5599D001DC817 /* CassandraTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CassandraTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0DC59CD1EF5599D001DC817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0DC59CF1EF5599D001DC817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0DC59D21EF5599D001DC817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0DC59D41EF5599D001DC817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0DC59D71EF5599D001DC817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0DC59D91EF5599D001DC817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0DC59C71EF5599D001DC817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B7B0CB768F736E2A17FDD1 /* Pods_CassandraTest2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BC25E9BE3FBF9961DE17859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A85C5230EEA6F85E715E228 /* Pods_CassandraTest2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B18980E2C515B04FE6B76D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1434A51858472A278DFE3C15 /* Pods-CassandraTest2.debug.xcconfig */,
+				58AB11CDCAA8E81F53D62735 /* Pods-CassandraTest2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0B0F09C1EF967780099ECC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0B0F09F1EF9679F0099ECC1 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B0B0F09D1EF9677E0099ECC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0DC59CF1EF5599D001DC817 /* ViewController.swift */,
+				B0B0F0981EF961E40099ECC1 /* ShowViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B0B0F09E1EF9678D0099ECC1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B0B0F09A1EF962AA0099ECC1 /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		B0DC59C11EF5599D001DC817 = {
+			isa = PBXGroup;
+			children = (
+				B0DC59CC1EF5599D001DC817 /* CassandraTest2 */,
+				B0DC59CB1EF5599D001DC817 /* Products */,
+				9B18980E2C515B04FE6B76D8 /* Pods */,
+				5BC25E9BE3FBF9961DE17859 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0DC59CB1EF5599D001DC817 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0DC59CA1EF5599D001DC817 /* CassandraTest2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0DC59CC1EF5599D001DC817 /* CassandraTest2 */ = {
+			isa = PBXGroup;
+			children = (
+				B0B0F09C1EF967780099ECC1 /* Model */,
+				B0B0F09D1EF9677E0099ECC1 /* Controller */,
+				B0B0F09E1EF9678D0099ECC1 /* Utils */,
+				B0DC59CD1EF5599D001DC817 /* AppDelegate.swift */,
+				B0DC59D11EF5599D001DC817 /* Main.storyboard */,
+				B0DC59D41EF5599D001DC817 /* Assets.xcassets */,
+				B0DC59D61EF5599D001DC817 /* LaunchScreen.storyboard */,
+				B0DC59D91EF5599D001DC817 /* Info.plist */,
+			);
+			path = CassandraTest2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0DC59C91EF5599D001DC817 /* CassandraTest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0DC59DC1EF5599D001DC817 /* Build configuration list for PBXNativeTarget "CassandraTest2" */;
+			buildPhases = (
+				D7513B021E59DE1E2220B74B /* [CP] Check Pods Manifest.lock */,
+				B0DC59C61EF5599D001DC817 /* Sources */,
+				B0DC59C71EF5599D001DC817 /* Frameworks */,
+				B0DC59C81EF5599D001DC817 /* Resources */,
+				0A4A7F849794E3E8BF8B4A0F /* [CP] Embed Pods Frameworks */,
+				96FF9EB98AA2C2E51EC33DE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CassandraTest2;
+			productName = CassandraTest2;
+			productReference = B0DC59CA1EF5599D001DC817 /* CassandraTest2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0DC59C21EF5599D001DC817 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tn.esprit.Pokedex3;
+				TargetAttributes = {
+					B0DC59C91EF5599D001DC817 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G96V29LG5G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B0DC59C51EF5599D001DC817 /* Build configuration list for PBXProject "CassandraTest2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0DC59C11EF5599D001DC817;
+			productRefGroup = B0DC59CB1EF5599D001DC817 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0DC59C91EF5599D001DC817 /* CassandraTest2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0DC59C81EF5599D001DC817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DC59D81EF5599D001DC817 /* LaunchScreen.storyboard in Resources */,
+				B0DC59D51EF5599D001DC817 /* Assets.xcassets in Resources */,
+				B0DC59D31EF5599D001DC817 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A4A7F849794E3E8BF8B4A0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CassandraTest2/Pods-CassandraTest2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96FF9EB98AA2C2E51EC33DE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CassandraTest2/Pods-CassandraTest2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7513B021E59DE1E2220B74B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0DC59C61EF5599D001DC817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DC59D01EF5599D001DC817 /* ViewController.swift in Sources */,
+				B0DC59CE1EF5599D001DC817 /* AppDelegate.swift in Sources */,
+				B0B0F0991EF961E40099ECC1 /* ShowViewController.swift in Sources */,
+				B0B0F0A01EF9679F0099ECC1 /* User.swift in Sources */,
+				B0B0F09B1EF962AA0099ECC1 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0DC59D11EF5599D001DC817 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0DC59D21EF5599D001DC817 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0DC59D61EF5599D001DC817 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0DC59D71EF5599D001DC817 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0DC59DA1EF5599D001DC817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0DC59DB1EF5599D001DC817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0DC59DD1EF5599D001DC817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1434A51858472A278DFE3C15 /* Pods-CassandraTest2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				INFOPLIST_FILE = CassandraTest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.Pokedex3.CassandraTest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B0DC59DE1EF5599D001DC817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58AB11CDCAA8E81F53D62735 /* Pods-CassandraTest2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				INFOPLIST_FILE = CassandraTest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.Pokedex3.CassandraTest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0DC59C51EF5599D001DC817 /* Build configuration list for PBXProject "CassandraTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0DC59DA1EF5599D001DC817 /* Debug */,
+				B0DC59DB1EF5599D001DC817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0DC59DC1EF5599D001DC817 /* Build configuration list for PBXNativeTarget "CassandraTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0DC59DD1EF5599D001DC817 /* Debug */,
+				B0DC59DE1EF5599D001DC817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0DC59C21EF5599D001DC817 /* Project object */;
+}
