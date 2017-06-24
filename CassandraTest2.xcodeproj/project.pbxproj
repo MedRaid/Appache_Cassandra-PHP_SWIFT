@@ -16,6 +16,7 @@
 		B0DC59D31EF5599D001DC817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0DC59D11EF5599D001DC817 /* Main.storyboard */; };
 		B0DC59D51EF5599D001DC817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DC59D41EF5599D001DC817 /* Assets.xcassets */; };
 		B0DC59D81EF5599D001DC817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0DC59D61EF5599D001DC817 /* LaunchScreen.storyboard */; };
+		B0FC24BE1EFD502700CE290E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FC24BD1EFD502700CE290E /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B0DC59D41EF5599D001DC817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0DC59D71EF5599D001DC817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0DC59D91EF5599D001DC817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0FC24BD1EFD502700CE290E /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				B0DC59CF1EF5599D001DC817 /* ViewController.swift */,
 				B0B0F0981EF961E40099ECC1 /* ShowViewController.swift */,
+				B0FC24BD1EFD502700CE290E /* DetailsViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				B0B0F0991EF961E40099ECC1 /* ShowViewController.swift in Sources */,
 				B0B0F0A01EF9679F0099ECC1 /* User.swift in Sources */,
 				B0B0F09B1EF962AA0099ECC1 /* Constants.swift in Sources */,
+				B0FC24BE1EFD502700CE290E /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

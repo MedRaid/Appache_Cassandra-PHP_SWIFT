@@ -36,7 +36,7 @@ class ShowViewController: UIViewController,UITableViewDataSource, UITableViewDel
 //            }
 //        }
         
-        let Ful_Url = "http://192.168.1.4:8888/phps/select.php"
+        let Ful_Url = "http://192.168.1.2:8888/phps/select.php"
         
         Alamofire.request(Ful_Url).responseJSON(completionHandler:  { (response) in
             
@@ -54,31 +54,23 @@ class ShowViewController: UIViewController,UITableViewDataSource, UITableViewDel
 
                         }
                     }
-                    
-                    
-                    
+
                     if let firstnames = userDect[ex]["firstname"] as? String{
                     users?.firstname = firstnames
-
                     
                     }
                     
                     if let emails = userDect[ex]["email"] as? String{
                         users?.email = emails
-
                     }
                     
                     if let lastnames = userDect[ex]["lastname"] as? String{
                        users?.lastname = lastnames
-
                     }
 
                      print("---------------------------------")
-
                     self.items.append(users!)
-                    
-                    
-                    
+
                 }
             }
 //
@@ -167,6 +159,29 @@ class ShowViewController: UIViewController,UITableViewDataSource, UITableViewDel
     
 
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "detailsSegue"{
+            
+            if   let detailsVc = segue.destination as? DetailsViewController{
+                if  let usr = sender as? User{
+                    detailsVc.usr = usr
+                    
+                }
+                
+            }
+            
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        var usr:User!
+
+        usr = items[indexPath.row]
+
+        performSegue(withIdentifier: "detailsSegue", sender: usr)
+
+        
+    }
     
     
     
