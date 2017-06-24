@@ -17,15 +17,19 @@ class DetailsViewController: UIViewController {
     @IBOutlet var lastname: UITextField!
     
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        
-        email.text = usr.email
-        firstname.text = usr.firstname
-        lastname.text = usr.lastname
-
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+////show info
+//        
+//        email.text = usr.email
+//        firstname.text = usr.firstname
+//        lastname.text = usr.lastname
+//
+//    }
+    override func viewDidAppear(_ animated: Bool) {
+                email.text = usr.email
+                firstname.text = usr.firstname
+                lastname.text = usr.lastname
     }
-
     
 }

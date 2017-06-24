@@ -159,7 +159,10 @@ class ShowViewController: UIViewController,UITableViewDataSource, UITableViewDel
     
 
     
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //segue test
+        
         if segue.identifier == "detailsSegue"{
             
             if   let detailsVc = segue.destination as? DetailsViewController{
